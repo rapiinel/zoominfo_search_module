@@ -1,4 +1,4 @@
-!requirements.txt
 *.txt
+!requirements.txt
 .venv
 *.csv
