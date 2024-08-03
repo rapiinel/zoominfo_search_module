@@ -80,8 +80,7 @@ class zoominfo:
             # response_dict = {key: [str(values)] for key, values in response_list.items()}
             # return pd.DataFrame.from_dict(response_dict)
             contact_id = self.get_contact_details(response_list['id'])
-            # random_delay(45,75)
+            self.random_delay(45,75)
             return contact_id
         else:
-            pass
-            # random_delay(6,13)
+            self.random_delay(6,13)
